@@ -13,9 +13,9 @@ You can view the source file [here](https://github.com/iaseth/whichtype/blob/mas
 
 
 ## Installation
-You can install {{ "josn-cli" | NpmLink }} with the following command:
-=> npm i -g josn-cli
-Now you should be able to run the `josn` command in your terminal.
+You can install {{ "whichtype" | NpmLink }} with the following command:
+=> npm i whichtype
+Now you should be able to use `whichtype` in your project.
 
 
 ## Package details

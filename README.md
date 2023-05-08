@@ -19,11 +19,11 @@ You can view the source file [here](https://github.com/iaseth/whichtype/blob/mas
 
 
 ## Installation
-You can install [`josn-cli`](https://www.npmjs.com/package/josn-cli) with the following command:
+You can install [`whichtype`](https://www.npmjs.com/package/whichtype) with the following command:
 ```
-npm i -g josn-cli
+npm i whichtype
 ```
-Now you should be able to run the `josn` command in your terminal.
+Now you should be able to use `whichtype` in your project.
 
 
 ## Package details
@@ -31,7 +31,7 @@ Now you should be able to run the `josn` command in your terminal.
 | ------------- | ---------------------------------------------------------------------------------- |
 | `Name`        | `whichtype`                                                                        |
 | `Description` | `Whichtype is a small JavaScript library for checking the type of your variables.` |
-| `Version`     | `0.7.0`                                                                            |
+| `Version`     | `0.7.1`                                                                            |
 | `Author`      | `iaseth`                                                                           |
 | `Homepage`    | `https://github.com/iaseth/whichtype`                                              |
 | `Repository`  | `iaseth/whichtype`                                                                 |
