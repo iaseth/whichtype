@@ -21,6 +21,15 @@ export {
 } from './array';
 
 export {
+	isObjectOfArrays,
+	isObjectOfBooleans,
+	isObjectOfChars,
+	isObjectOfNumbers,
+	isObjectOfObjects,
+	isObjectOfStrings,
+} from './object';
+
+export {
 	isHttp,
 	isHttps,
 	isURL,
