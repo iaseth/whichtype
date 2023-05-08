@@ -2,6 +2,13 @@ import { isArray, isBoolean, isChar, isNumber, isObject, isString } from "./basi
 
 
 
+export function isEmptyObject (x: any): boolean {
+	if (isObject(x) && Object.keys(x).length === 0) {
+		return true;
+	}
+	return false;
+}
+
 export function isObjectOfArrays (x: any): boolean {
 	if (!isObject(x)) return false;
 	Object.values(x).forEach(v => {

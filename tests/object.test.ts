@@ -2,6 +2,13 @@ const whichtype = require("../dist");
 
 
 
+test("isEmptyObject", () => {
+	const { isEmptyObject } = whichtype;
+
+	expect(isEmptyObject({})).toBe(true);
+	expect(isEmptyObject("foo")).toBe(false);
+});
+
 test("isObjectOfArrays", () => {
 	const { isObjectOfArrays } = whichtype;
 

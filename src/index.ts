@@ -12,6 +12,7 @@ export {
 } from "./basictypes";
 
 export {
+	isEmptyArray,
 	isArrayOfArrays,
 	isArrayOfBooleans,
 	isArrayOfChars,
@@ -21,6 +22,7 @@ export {
 } from './array';
 
 export {
+	isEmptyObject,
 	isObjectOfArrays,
 	isObjectOfBooleans,
 	isObjectOfChars,
