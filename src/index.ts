@@ -11,6 +11,19 @@ export {
 	isUndefined,
 } from "./basictypes";
 
+
+export {
+	isNotArray,
+	isNotBoolean,
+	isNotChar,
+	isNotNull,
+	isNotNumber,
+	isNotObject,
+	isNotString,
+	isNotUndefined,
+} from './inverses';
+
+
 export {
 	isEmptyArray,
 	isArrayOfArrays,
@@ -21,6 +34,7 @@ export {
 	isArrayOfStrings,
 } from './array';
 
+
 export {
 	isEmptyObject,
 	isObjectOfArrays,
@@ -30,6 +44,7 @@ export {
 	isObjectOfObjects,
 	isObjectOfStrings,
 } from './object';
+
 
 export {
 	isHttp,
