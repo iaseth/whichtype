@@ -1,0 +1,38 @@
+
+# whichtype
+{{ "whichtype" | NpmLink }} is a command-line `JSON` viewer, written in `JavaScript` and `TypeScript`.
+
+I felt the need for a `whichtype` when I was working on {{ gh.link("iaseth/josn") }}.
+
+I am using {{ gh.link("iaseth/readmix", "readmix") }} for generating this README.
+You can view the source file [here](https://github.com/iaseth/whichtype/blob/master/README.md.rx).
+
+
+## Table of contents
+{{ tableOfContents(doc) }}
+
+
+## Installation
+You can install {{ "josn-cli" | NpmLink }} with the following command:
+=> npm i -g josn-cli
+Now you should be able to run the `josn` command in your terminal.
+
+
+## Package details
+{{ npm.packageDetails() }}
+
+
+## Dependencies
+{{ npm.dependencyTable() }}
+
+
+## Dev dependencies
+{{ npm.devDependencyTable() }}
+
+
+## License
+{{ "LICENSE.md" | File }}
+
+
+{{ giveCredit() }}
+

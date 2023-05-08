@@ -1,0 +1,16 @@
+{
+  "name": "whichtype",
+  "version": "0.1.0",
+  "description": "Whichtype is a small JavaScript library for checking the type of your variables.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "testwatch": "jest --watchAll --verbose"
+  },
+  "keywords": [],
+  "author": "iaseth",
+  "homepage": "https://github.com/iaseth/whichtype",
+  "repository": "iaseth/whichtype",
+  "license": "MIT"
+}
