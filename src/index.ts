@@ -10,3 +10,9 @@ export {
 	isNull,
 	isUndefined,
 } from "./basictypes";
+
+export {
+	isHttp,
+	isHttps,
+	isURL,
+} from './urls';
