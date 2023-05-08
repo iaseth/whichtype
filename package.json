@@ -1,6 +1,6 @@
 {
   "name": "whichtype",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Whichtype is a small JavaScript library for checking the type of your variables.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
