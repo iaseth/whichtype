@@ -31,7 +31,7 @@ Now you should be able to run the `josn` command in your terminal.
 | ------------- | ---------------------------------------------------------------------------------- |
 | `Name`        | `whichtype`                                                                        |
 | `Description` | `Whichtype is a small JavaScript library for checking the type of your variables.` |
-| `Version`     | `0.6.0`                                                                            |
+| `Version`     | `0.7.0`                                                                            |
 | `Author`      | `iaseth`                                                                           |
 | `Homepage`    | `https://github.com/iaseth/whichtype`                                              |
 | `Repository`  | `iaseth/whichtype`                                                                 |
@@ -44,9 +44,10 @@ This package has no dependencies.
 
 
 ## Dev dependencies
-|     | `Package`   | `Version`   |
-| --- | ----------- | ----------- |
-| 1   | `jest`      | `^29.5.0`   |
+|     | `Package`     | `Version`   |
+| --- | ------------- | ----------- |
+| 1   | `@types/jest` | `^29.5.1`   |
+| 2   | `jest`        | `^29.5.0`   |
 
 
 
