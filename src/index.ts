@@ -12,6 +12,15 @@ export {
 } from "./basictypes";
 
 export {
+	isArrayOfArrays,
+	isArrayOfBooleans,
+	isArrayOfChars,
+	isArrayOfNumbers,
+	isArrayOfObjects,
+	isArrayOfStrings,
+} from './array';
+
+export {
 	isHttp,
 	isHttps,
 	isURL,
