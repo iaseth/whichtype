@@ -1,6 +1,6 @@
 
 # whichtype
-[`whichtype`](https://www.npmjs.com/package/whichtype) is a command-line `JSON` viewer, written in `JavaScript` and `TypeScript`.
+[`whichtype`](https://www.npmjs.com/package/whichtype) is a small `JavaScript/TypeScript` library for checking the type of your variables, written in `TypeScript`.
 
 I felt the need for a `whichtype` when I was working on [`iaseth/josn`](https://github.com/iaseth/josn).
 
@@ -31,7 +31,7 @@ Now you should be able to run the `josn` command in your terminal.
 | ------------- | ---------------------------------------------------------------------------------- |
 | `Name`        | `whichtype`                                                                        |
 | `Description` | `Whichtype is a small JavaScript library for checking the type of your variables.` |
-| `Version`     | `0.1.0`                                                                            |
+| `Version`     | `0.2.0`                                                                            |
 | `Author`      | `iaseth`                                                                           |
 | `Homepage`    | `https://github.com/iaseth/whichtype`                                              |
 | `Repository`  | `iaseth/whichtype`                                                                 |
@@ -44,7 +44,10 @@ This package has no dependencies.
 
 
 ## Dev dependencies
-This package has no devDependencies.
+|     | `Package`   | `Version`   |
+| --- | ----------- | ----------- |
+| 1   | `jest`      | `^29.5.0`   |
+
 
 
 ## License

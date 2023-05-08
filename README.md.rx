@@ -1,6 +1,6 @@
 
 # whichtype
-{{ "whichtype" | NpmLink }} is a command-line `JSON` viewer, written in `JavaScript` and `TypeScript`.
+{{ "whichtype" | NpmLink }} is a small `JavaScript/TypeScript` library for checking the type of your variables, written in `TypeScript`.
 
 I felt the need for a `whichtype` when I was working on {{ gh.link("iaseth/josn") }}.
 
