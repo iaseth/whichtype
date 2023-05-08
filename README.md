@@ -2,7 +2,7 @@
 # whichtype
 [`whichtype`](https://www.npmjs.com/package/whichtype) is a small `JavaScript/TypeScript` library for checking the type of your variables, written in `TypeScript`.
 
-I felt the need for a `whichtype` when I was working on [`iaseth/josn`](https://github.com/iaseth/josn).
+I felt the need for `whichtype` when I was working on [`iaseth/josn`](https://github.com/iaseth/josn).
 
 I am using [`readmix`](https://github.com/iaseth/readmix) for generating this README.
 You can view the source file [here](https://github.com/iaseth/whichtype/blob/master/README.md.rx).
@@ -31,7 +31,7 @@ Now you should be able to run the `josn` command in your terminal.
 | ------------- | ---------------------------------------------------------------------------------- |
 | `Name`        | `whichtype`                                                                        |
 | `Description` | `Whichtype is a small JavaScript library for checking the type of your variables.` |
-| `Version`     | `0.2.0`                                                                            |
+| `Version`     | `0.4.0`                                                                            |
 | `Author`      | `iaseth`                                                                           |
 | `Homepage`    | `https://github.com/iaseth/whichtype`                                              |
 | `Repository`  | `iaseth/whichtype`                                                                 |

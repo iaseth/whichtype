@@ -2,7 +2,7 @@
 # whichtype
 {{ "whichtype" | NpmLink }} is a small `JavaScript/TypeScript` library for checking the type of your variables, written in `TypeScript`.
 
-I felt the need for a `whichtype` when I was working on {{ gh.link("iaseth/josn") }}.
+I felt the need for `whichtype` when I was working on {{ gh.link("iaseth/josn") }}.
 
 I am using {{ gh.link("iaseth/readmix", "readmix") }} for generating this README.
 You can view the source file [here](https://github.com/iaseth/whichtype/blob/master/README.md.rx).
