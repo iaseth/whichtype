@@ -1,0 +1,51 @@
+{
+	"functions": [
+		{"heading": "Basics"},
+		{"name": "isArray", "description": "Returns `true` only if the `arg` is an Array."},
+		{"name": "isBoolean", "description": "Returns `true` only if the `arg` is a Boolean."},
+		{"name": "isChar", "description": "Returns `true` only if the `arg` is a Char."},
+		{"name": "isNumber", "description": "Returns `true` only if the `arg` is a Number."},
+		{"name": "isObject", "description": "Returns `true` only if the `arg` is an Object."},
+		{"name": "isString", "description": "Returns `true` only if the `arg` is a String."},
+
+		{"name": "isNull", "description": "Returns `true` only if the `arg` is null."},
+		{"name": "isUndefined", "description": "Returns `true` only if the `arg` is undefined."},
+
+		{"name": "isPrimitive", "description": "Returns `true` only if the `arg` is a Primitive value."},
+		{"name": "isReference", "description": "Returns `true` only if the `arg` is a Reference value."},
+
+
+		{"heading": "Inverses"},
+		{"name": "isNotArray", "description": "Returns `true` only if the `arg` is not an Array."},
+		{"name": "isNotBoolean", "description": "Returns `true` only if the `arg` is not a Boolean."},
+		{"name": "isNotChar", "description": "Returns `true` only if the `arg` is not a Char."},
+		{"name": "isNotNumber", "description": "Returns `true` only if the `arg` is not a Number."},
+		{"name": "isNotObject", "description": "Returns `true` only if the `arg` is not an Object."},
+		{"name": "isNotString", "description": "Returns `true` only if the `arg` is not a String."},
+
+		{"name": "isNotNull", "description": "Returns `true` only if the `arg` is not null."},
+		{"name": "isNotUndefined", "description": "Returns `true` only if the `arg` is not undefined."},
+
+		{"name": "isNotPrimitive", "description": "Returns `true` only if the `arg` is not a Primitive value."},
+		{"name": "isNotReference", "description": "Returns `true` only if the `arg` is not a Reference value."},
+
+
+		{"heading": "Array Functions"},
+		{"name": "isEmptyArray", "description": "Returns `true` only if the `arg` is an empty Array."},
+		{"name": "isArrayOfArrays", "description": "Returns `true` only if the `arg` is an Array of Arrays."},
+		{"name": "isArrayOfBooleans", "description": "Returns `true` only if the `arg` is an Array of Boolean values."},
+		{"name": "isArrayOfChars", "description": "Returns `true` only if the `arg` is an Array of Char values."},
+		{"name": "isArrayOfNumbers", "description": "Returns `true` only if the `arg` is an Array of Numbers."},
+		{"name": "isArrayOfObjects", "description": "Returns `true` only if the `arg` is an Array of Objects."},
+		{"name": "isArrayOfStrings", "description": "Returns `true` only if the `arg` is an Array of Strings."},
+
+		{"heading": "Object Functions"},
+		{"name": "isEmptyObject", "description": "Returns `true` only if the `arg` is an empty Object."},
+		{"name": "isObjectOfArrays", "description": "Returns `true` only if the `arg` is an Object only containing Array values."},
+		{"name": "isObjectOfBooleans", "description": "Returns `true` only if the `arg` is an Object only containing Boolean values."},
+		{"name": "isObjectOfChars", "description": "Returns `true` only if the `arg` is an Object only containing Char values."},
+		{"name": "isObjectOfNumbers", "description": "Returns `true` only if the `arg` is an Object only containing Number values."},
+		{"name": "isObjectOfObjects", "description": "Returns `true` only if the `arg` is an Object only containing Object values."},
+		{"name": "isObjectOfStrings", "description": "Returns `true` only if the `arg` is an Object only containing String values."},
+	]
+}

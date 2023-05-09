@@ -19,11 +19,15 @@ export {
 	isNotArray,
 	isNotBoolean,
 	isNotChar,
-	isNotNull,
 	isNotNumber,
 	isNotObject,
 	isNotString,
+
+	isNotNull,
 	isNotUndefined,
+
+	isNotPrimitive,
+	isNotReference,
 } from './inverses';
 
 

@@ -1,4 +1,4 @@
-import { isArray, isBoolean, isChar, isNull, isNumber, isObject, isString, isUndefined } from "./basictypes";
+import { isArray, isBoolean, isChar, isNull, isNumber, isObject, isString, isUndefined, isPrimitive, isReference } from "./basictypes";
 
 export function isNotArray (x: any): boolean {
 	return !isArray(x);
@@ -24,10 +24,20 @@ export function isNotString (x: any): boolean {
 	return !isString(x);
 }
 
+
 export function isNotNull (x: any): boolean {
 	return !isNull(x);
 }
 
 export function isNotUndefined (x: any): boolean {
 	return !isUndefined(x);
+}
+
+
+export function isNotPrimitive (x: any): boolean {
+	return !isPrimitive(x);
+}
+
+export function isNotReference (x: any): boolean {
+	return !isReference(x);
 }

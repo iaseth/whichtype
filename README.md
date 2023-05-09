@@ -12,6 +12,7 @@ You can view the source file [here](https://github.com/iaseth/whichtype/blob/mas
 * [whichtype](#whichtype)
     * [Table of contents](#table-of-contents)
     * [Installation](#installation)
+    * [Documentation](#documentation)
     * [Package details](#package-details)
     * [Dependencies](#dependencies)
     * [Dev dependencies](#dev-dependencies)
@@ -26,12 +27,57 @@ npm i whichtype
 Now you should be able to use `whichtype` in your project.
 
 
+## Documentation
+`Whichtype` export the following functions, each of them accept a single argument and return `true` or `false`.
+
+| Function | Description |
+| -------- | ----------- |
+| **Basics** |  |
+| `isArray(arg)` | Returns `true` only if the `arg` is an Array. |
+| `isBoolean(arg)` | Returns `true` only if the `arg` is a Boolean. |
+| `isChar(arg)` | Returns `true` only if the `arg` is a Char. |
+| `isNumber(arg)` | Returns `true` only if the `arg` is a Number. |
+| `isObject(arg)` | Returns `true` only if the `arg` is an Object. |
+| `isString(arg)` | Returns `true` only if the `arg` is a String. |
+| `isNull(arg)` | Returns `true` only if the `arg` is null. |
+| `isUndefined(arg)` | Returns `true` only if the `arg` is undefined. |
+| `isPrimitive(arg)` | Returns `true` only if the `arg` is a Primitive value. |
+| `isReference(arg)` | Returns `true` only if the `arg` is a Reference value. |
+| **Inverses** |  |
+| `isNotArray(arg)` | Returns `true` only if the `arg` is not an Array. |
+| `isNotBoolean(arg)` | Returns `true` only if the `arg` is not a Boolean. |
+| `isNotChar(arg)` | Returns `true` only if the `arg` is not a Char. |
+| `isNotNumber(arg)` | Returns `true` only if the `arg` is not a Number. |
+| `isNotObject(arg)` | Returns `true` only if the `arg` is not an Object. |
+| `isNotString(arg)` | Returns `true` only if the `arg` is not a String. |
+| `isNotNull(arg)` | Returns `true` only if the `arg` is not null. |
+| `isNotUndefined(arg)` | Returns `true` only if the `arg` is not undefined. |
+| `isNotPrimitive(arg)` | Returns `true` only if the `arg` is not a Primitive value. |
+| `isNotReference(arg)` | Returns `true` only if the `arg` is not a Reference value. |
+| **Array Functions** |  |
+| `isEmptyArray(arg)` | Returns `true` only if the `arg` is an empty Array. |
+| `isArrayOfArrays(arg)` | Returns `true` only if the `arg` is an Array of Arrays. |
+| `isArrayOfBooleans(arg)` | Returns `true` only if the `arg` is an Array of Boolean values. |
+| `isArrayOfChars(arg)` | Returns `true` only if the `arg` is an Array of Char values. |
+| `isArrayOfNumbers(arg)` | Returns `true` only if the `arg` is an Array of Numbers. |
+| `isArrayOfObjects(arg)` | Returns `true` only if the `arg` is an Array of Objects. |
+| `isArrayOfStrings(arg)` | Returns `true` only if the `arg` is an Array of Strings. |
+| **Object Functions** |  |
+| `isEmptyObject(arg)` | Returns `true` only if the `arg` is an empty Object. |
+| `isObjectOfArrays(arg)` | Returns `true` only if the `arg` is an Object only containing Array values. |
+| `isObjectOfBooleans(arg)` | Returns `true` only if the `arg` is an Object only containing Boolean values. |
+| `isObjectOfChars(arg)` | Returns `true` only if the `arg` is an Object only containing Char values. |
+| `isObjectOfNumbers(arg)` | Returns `true` only if the `arg` is an Object only containing Number values. |
+| `isObjectOfObjects(arg)` | Returns `true` only if the `arg` is an Object only containing Object values. |
+| `isObjectOfStrings(arg)` | Returns `true` only if the `arg` is an Object only containing String values. |
+
+
 ## Package details
 | `Name`        | `Value`                                                                            |
 | ------------- | ---------------------------------------------------------------------------------- |
 | `Name`        | `whichtype`                                                                        |
 | `Description` | `Whichtype is a small JavaScript library for checking the type of your variables.` |
-| `Version`     | `0.10.0`                                                                           |
+| `Version`     | `1.0.0`                                                                            |
 | `Author`      | `iaseth`                                                                           |
 | `Homepage`    | `https://github.com/iaseth/whichtype`                                              |
 | `Repository`  | `iaseth/whichtype`                                                                 |

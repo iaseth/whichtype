@@ -18,6 +18,14 @@ You can install {{ "whichtype" | NpmLink }} with the following command:
 Now you should be able to use `whichtype` in your project.
 
 
+## Documentation
+`Whichtype` export the following functions, each of them accept a single argument and return `true` or `false`.
+
+| Function | Description |
+| -------- | ----------- |{% for fun in parse("docs.json")["functions"] %}
+| {{ "`" + fun.name + "(arg)`" if fun.name else "**" + fun.heading + "**" }} | {{ fun.description }} |{% endfor %}
+
+
 ## Package details
 {{ npm.packageDetails() }}
 
