@@ -11,6 +11,7 @@ export function isEmptyArray (x: any): boolean {
 
 export function isArrayOfArrays (x: any): boolean {
 	if (!isArray(x)) return false;
+	if (x.length === 0) return false;
 	x.forEach((e: any) => {
 		if (!isArray(e)) return false;
 	});
@@ -19,40 +20,45 @@ export function isArrayOfArrays (x: any): boolean {
 
 export function isArrayOfBooleans (x: any): boolean {
 	if (!isArray(x)) return false;
-	x.forEach((e: any) => {
+	if (x.length === 0) return false;
+	for (const e of x) {
 		if (!isBoolean(e)) return false;
-	});
+	}
 	return true;
 }
 
 export function isArrayOfChars (x: any): boolean {
 	if (!isArray(x)) return false;
-	x.forEach((e: any) => {
+	if (x.length === 0) return false;
+	for (const e of x) {
 		if (!isChar(e)) return false;
-	});
+	}
 	return true;
 }
 
 export function isArrayOfNumbers (x: any): boolean {
 	if (!isArray(x)) return false;
-	x.forEach((e: any) => {
+	if (x.length === 0) return false;
+	for (const e of x) {
 		if (!isNumber(e)) return false;
-	});
+	}
 	return true;
 }
 
 export function isArrayOfObjects (x: any): boolean {
 	if (!isArray(x)) return false;
-	x.forEach((e: any) => {
+	if (x.length === 0) return false;
+	for (const e of x) {
 		if (!isObject(e)) return false;
-	});
+	}
 	return true;
 }
 
 export function isArrayOfStrings (x: any): boolean {
 	if (!isArray(x)) return false;
-	x.forEach((e: any) => {
+	if (x.length === 0) return false;
+	for (const e of x) {
 		if (!isString(e)) return false;
-	});
+	}
 	return true;
 }

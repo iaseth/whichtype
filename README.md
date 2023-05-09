@@ -77,7 +77,7 @@ Now you should be able to use `whichtype` in your project.
 | ------------- | ---------------------------------------------------------------------------------- |
 | `Name`        | `whichtype`                                                                        |
 | `Description` | `Whichtype is a small JavaScript library for checking the type of your variables.` |
-| `Version`     | `1.0.0`                                                                            |
+| `Version`     | `1.0.1`                                                                            |
 | `Author`      | `iaseth`                                                                           |
 | `Homepage`    | `https://github.com/iaseth/whichtype`                                              |
 | `Repository`  | `iaseth/whichtype`                                                                 |
