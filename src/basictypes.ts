@@ -36,3 +36,11 @@ export function isNull (val: any): boolean {
 export function isUndefined (val: any): boolean {
 	return val === undefined;
 }
+
+export function isPrimitive (val: any): boolean {
+	return isBoolean(val) || isNumber(val) || isString(val);
+}
+
+export function isReference (val: any): boolean {
+	return isArray(val) || isObject(val);
+}

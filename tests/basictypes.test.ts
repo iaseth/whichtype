@@ -117,3 +117,32 @@ test("isUndefined", () => {
 });
 
 
+test("isPrimitive", () => {
+	const { isPrimitive } = whichtype;
+
+	expect(isPrimitive(false)).toBe(true);
+	expect(isPrimitive(20.5)).toBe(true);
+	expect(isPrimitive("foo")).toBe(true);
+
+	expect(isPrimitive()).toBe(false);
+	expect(isPrimitive(undefined)).toBe(false);
+	expect(isPrimitive(null)).toBe(false);
+	expect(isPrimitive({})).toBe(false);
+	expect(isPrimitive([])).toBe(false);
+});
+
+test("isReference", () => {
+	const { isReference } = whichtype;
+
+	expect(isReference({})).toBe(true);
+	expect(isReference([])).toBe(true);
+
+	expect(isReference()).toBe(false);
+	expect(isReference(undefined)).toBe(false);
+	expect(isReference(null)).toBe(false);
+	expect(isReference(false)).toBe(false);
+	expect(isReference(20.5)).toBe(false);
+	expect(isReference("foo")).toBe(false);
+});
+
+

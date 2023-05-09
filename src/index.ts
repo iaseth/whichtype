@@ -9,6 +9,9 @@ export {
 
 	isNull,
 	isUndefined,
+
+	isPrimitive,
+	isReference,
 } from "./basictypes";
 
 
