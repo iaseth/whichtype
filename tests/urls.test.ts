@@ -1,23 +1,23 @@
-const whichtype = require("../dist");
+const urlfuncs = require("../dist/urls");
 
 
 
 test("isHttp", () => {
-	const { isHttp } = whichtype;
+	const { isHttp } = urlfuncs;
 
 	expect(isHttp("http://foo.com")).toBe(true);
 	expect(isHttp("https://foo.com")).toBe(false);
 });
 
 test("isHttps", () => {
-	const { isHttps } = whichtype;
+	const { isHttps } = urlfuncs;
 
 	expect(isHttps("https://foo.com")).toBe(true);
 	expect(isHttps("http://foo.com")).toBe(false);
 });
 
 test("isURL", () => {
-	const { isURL } = whichtype;
+	const { isURL } = urlfuncs;
 
 	expect(isURL("https://foo.com")).toBe(true);
 	expect(isURL("http://foo.com")).toBe(true);

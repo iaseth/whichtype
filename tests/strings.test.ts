@@ -1,6 +1,6 @@
-const whichtype = require("../dist");
+const { isLowerCase, isUpperCase } = require("../dist/strings");
 
-const { isLowerCase, isUpperCase } = whichtype;
+
 
 test("isLowerCase", () => {
 	expect(isLowerCase([])).toBe(false);

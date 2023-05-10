@@ -1,9 +1,9 @@
-const whichtype = require("../dist");
+const objectfuncs = require("../dist/object");
 
 
 
 test("isEmptyObject", () => {
-	const { isEmptyObject } = whichtype;
+	const { isEmptyObject } = objectfuncs;
 
 	expect(isEmptyObject({})).toBe(true);
 
@@ -12,7 +12,7 @@ test("isEmptyObject", () => {
 });
 
 test("isObjectOfArrays", () => {
-	const { isObjectOfArrays } = whichtype;
+	const { isObjectOfArrays } = objectfuncs;
 
 	expect(isObjectOfArrays({foo: []})).toBe(true);
 
@@ -32,7 +32,7 @@ test("isObjectOfArrays", () => {
 });
 
 test("isObjectOfBooleans", () => {
-	const { isObjectOfBooleans } = whichtype;
+	const { isObjectOfBooleans } = objectfuncs;
 
 	expect(isObjectOfBooleans({foo: false})).toBe(true);
 
@@ -52,7 +52,7 @@ test("isObjectOfBooleans", () => {
 });
 
 test("isObjectOfChars", () => {
-	const { isObjectOfChars } = whichtype;
+	const { isObjectOfChars } = objectfuncs;
 
 	expect(isObjectOfChars({foo: "x"})).toBe(true);
 
@@ -72,7 +72,7 @@ test("isObjectOfChars", () => {
 });
 
 test("isObjectOfNumbers", () => {
-	const { isObjectOfNumbers } = whichtype;
+	const { isObjectOfNumbers } = objectfuncs;
 
 	expect(isObjectOfNumbers({foo: 200})).toBe(true);
 
@@ -92,7 +92,7 @@ test("isObjectOfNumbers", () => {
 });
 
 test("isObjectOfObjects", () => {
-	const { isObjectOfObjects } = whichtype;
+	const { isObjectOfObjects } = objectfuncs;
 
 	expect(isObjectOfObjects({foo: {}})).toBe(true);
 
@@ -112,7 +112,7 @@ test("isObjectOfObjects", () => {
 });
 
 test("isObjectOfStrings", () => {
-	const { isObjectOfStrings } = whichtype;
+	const { isObjectOfStrings } = objectfuncs;
 
 	expect(isObjectOfStrings({foo: "x"})).toBe(true);
 	expect(isObjectOfStrings({foo: "bar"})).toBe(true);

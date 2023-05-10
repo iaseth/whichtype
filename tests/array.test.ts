@@ -1,9 +1,9 @@
-const whichtype = require("../dist");
+const arrayfuncs = require("../dist/array");
 
 
 
 test("isEmptyArray", () => {
-	const { isEmptyArray } = whichtype;
+	const { isEmptyArray } = arrayfuncs;
 
 	expect(isEmptyArray([])).toBe(true);
 	expect(isEmptyArray(20)).toBe(false);
@@ -11,14 +11,14 @@ test("isEmptyArray", () => {
 });
 
 test("isArrayOfArrays", () => {
-	const { isArrayOfArrays } = whichtype;
+	const { isArrayOfArrays } = arrayfuncs;
 
 	expect(isArrayOfArrays([[], []])).toBe(true);
 	expect(isArrayOfArrays("foo")).toBe(false);
 });
 
 test("isArrayOfBooleans", () => {
-	const { isArrayOfBooleans } = whichtype;
+	const { isArrayOfBooleans } = arrayfuncs;
 
 	expect(isArrayOfBooleans([false, true])).toBe(true);
 
@@ -29,7 +29,7 @@ test("isArrayOfBooleans", () => {
 });
 
 test("isArrayOfChars", () => {
-	const { isArrayOfChars } = whichtype;
+	const { isArrayOfChars } = arrayfuncs;
 
 	expect(isArrayOfChars(["x", "y"])).toBe(true);
 
@@ -41,7 +41,7 @@ test("isArrayOfChars", () => {
 });
 
 test("isArrayOfNumbers", () => {
-	const { isArrayOfNumbers } = whichtype;
+	const { isArrayOfNumbers } = arrayfuncs;
 
 	expect(isArrayOfNumbers([20, 40])).toBe(true);
 
@@ -52,7 +52,7 @@ test("isArrayOfNumbers", () => {
 });
 
 test("isArrayOfObjects", () => {
-	const { isArrayOfObjects } = whichtype;
+	const { isArrayOfObjects } = arrayfuncs;
 
 	expect(isArrayOfObjects([{}])).toBe(true);
 
@@ -62,7 +62,7 @@ test("isArrayOfObjects", () => {
 });
 
 test("isArrayOfStrings", () => {
-	const { isArrayOfStrings } = whichtype;
+	const { isArrayOfStrings } = arrayfuncs;
 
 	expect(isArrayOfStrings(["foo"])).toBe(true);
 	expect(isArrayOfStrings(["foo", "bar"])).toBe(true);
