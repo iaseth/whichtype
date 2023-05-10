@@ -24,7 +24,13 @@ You can install [`whichtype`](https://www.npmjs.com/package/whichtype) with the 
 ```
 npm i whichtype
 ```
-Now you should be able to use `whichtype` in your project.
+Now you can import `whichtype` in your project as follows.
+```
+const whichtype = require("whichtype");
+```
+```
+whichtype.isNumber(100);    // true
+```
 
 
 ## Documentation

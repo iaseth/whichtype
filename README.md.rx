@@ -15,7 +15,9 @@ You can view the source file [here](https://github.com/iaseth/whichtype/blob/mas
 ## Installation
 You can install {{ "whichtype" | NpmLink }} with the following command:
 => npm i whichtype
-Now you should be able to use `whichtype` in your project.
+Now you can import `whichtype` in your project as follows.
+=> const whichtype = require("whichtype");
+=> whichtype.isNumber(100);    // true
 
 
 ## Documentation
