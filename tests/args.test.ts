@@ -2,11 +2,29 @@ const argfuncs = require("../dist/args");
 
 
 
+test("isFlag", () => {
+	const { isFlag } = argfuncs;
+
+	expect(isFlag("-a")).toBe(true);
+	expect(isFlag("-X")).toBe(true);
+	expect(isFlag("--foo")).toBe(true);
+
+	expect(isFlag("-3")).toBe(false);
+	expect(isFlag("-5.2")).toBe(false);
+	expect(isFlag("-1")).toBe(false);
+
+	expect(isFlag("-")).toBe(false);
+	expect(isFlag("--")).toBe(true);
+});
+
 test("isSingleFlag", () => {
 	const { isSingleFlag } = argfuncs;
 
 	expect(isSingleFlag("-a")).toBe(true);
 	expect(isSingleFlag("-X")).toBe(true);
+
+	expect(isSingleFlag("-3")).toBe(false);
+	expect(isSingleFlag("-5.2")).toBe(false);
 
 	expect(isSingleFlag("-")).toBe(false);
 	expect(isSingleFlag("--")).toBe(false);

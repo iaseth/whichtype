@@ -1,3 +1,4 @@
+import { isString } from "./basictypes";
 
 
 
@@ -24,7 +25,7 @@ export function isObjectKey (x: string) {
 
 
 export function isFlag (arg: string) : boolean {
-	if (arg.startsWith("-") && !hasAColon(arg)) {
+	if (arg.startsWith("-") && arg.length > 1 && !hasAColon(arg) && !isNumeric(arg)) {
 		return true;
 	}
 	return false;
