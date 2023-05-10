@@ -32,6 +32,19 @@ export {
 
 
 export {
+	isNumeric,
+	isArrayIndex,
+	isObjectKey,
+	isFlag,
+	isNotFlag,
+	hasAColon,
+	isSingleFlag,
+	isDoubleFlag,
+	isTripleFlag,
+} from './args';
+
+
+export {
 	isEmptyArray,
 	isArrayOfArrays,
 	isArrayOfBooleans,
