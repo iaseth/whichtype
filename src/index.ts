@@ -54,6 +54,12 @@ export {
 
 
 export {
+	isLowerCase,
+	isUpperCase,
+} from './strings';
+
+
+export {
 	isHttp,
 	isHttps,
 	isURL,
