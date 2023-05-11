@@ -1,8 +1,9 @@
 
 # whichtype
 [`whichtype`](https://www.npmjs.com/package/whichtype) is a small `JavaScript/TypeScript` library for checking the type of your variables, written in `TypeScript`.
+It has no dependencies.
 
-I felt the need for `whichtype` when I was working on [`iaseth/josn`](https://github.com/iaseth/josn).
+I felt the need for `whichtype` when I was working on [`josn`](https://github.com/iaseth/josn).
 
 I am using [`readmix`](https://github.com/iaseth/readmix) for generating this README.
 You can view the source file [here](https://github.com/iaseth/whichtype/blob/master/README.md.rx).
@@ -24,7 +25,7 @@ You can install [`whichtype`](https://www.npmjs.com/package/whichtype) with the 
 ```
 npm i whichtype
 ```
-Now you can import `whichtype` in your project as follows.
+Now, you can import `whichtype` in your project as follows.
 ```
 const whichtype = require("whichtype");
 ```
@@ -34,58 +35,59 @@ whichtype.isNumber(100);    // true
 
 
 ## Documentation
-`Whichtype` export the following functions, each of them accept a single argument and return `true` or `false`.
+`whichtype` exports the following functions.
+Each of these functions accept a single argument and return `true` or `false`.
 
 | Function | Description |
 | -------- | ----------- |
 | **Basics** |  |
-| `isArray(arg)` | Returns `true` only if the `arg` is an Array. |
-| `isBoolean(arg)` | Returns `true` only if the `arg` is a Boolean. |
-| `isChar(arg)` | Returns `true` only if the `arg` is a Char. |
-| `isNumber(arg)` | Returns `true` only if the `arg` is a Number. |
-| `isObject(arg)` | Returns `true` only if the `arg` is an Object. |
-| `isString(arg)` | Returns `true` only if the `arg` is a String. |
-| `isNull(arg)` | Returns `true` only if the `arg` is null. |
-| `isUndefined(arg)` | Returns `true` only if the `arg` is undefined. |
-| `isPrimitive(arg)` | Returns `true` only if the `arg` is a Primitive value. |
-| `isReference(arg)` | Returns `true` only if the `arg` is a Reference value. |
+| `isArray(arg)` | Returns `true` only if `arg` is an Array. |
+| `isBoolean(arg)` | Returns `true` only if `arg` is a Boolean. |
+| `isChar(arg)` | Returns `true` only if `arg` is a Char. |
+| `isNumber(arg)` | Returns `true` only if `arg` is a Number. |
+| `isObject(arg)` | Returns `true` only if `arg` is an Object. |
+| `isString(arg)` | Returns `true` only if `arg` is a String. |
+| `isNull(arg)` | Returns `true` only if `arg` is null. |
+| `isUndefined(arg)` | Returns `true` only if `arg` is undefined. |
+| `isPrimitive(arg)` | Returns `true` only if `arg` is a Primitive value. |
+| `isReference(arg)` | Returns `true` only if `arg` is a Reference value. |
 | **Inverses** |  |
-| `isNotArray(arg)` | Returns `true` only if the `arg` is not an Array. |
-| `isNotBoolean(arg)` | Returns `true` only if the `arg` is not a Boolean. |
-| `isNotChar(arg)` | Returns `true` only if the `arg` is not a Char. |
-| `isNotNumber(arg)` | Returns `true` only if the `arg` is not a Number. |
-| `isNotObject(arg)` | Returns `true` only if the `arg` is not an Object. |
-| `isNotString(arg)` | Returns `true` only if the `arg` is not a String. |
-| `isNotNull(arg)` | Returns `true` only if the `arg` is not null. |
-| `isNotUndefined(arg)` | Returns `true` only if the `arg` is not undefined. |
-| `isNotPrimitive(arg)` | Returns `true` only if the `arg` is not a Primitive value. |
-| `isNotReference(arg)` | Returns `true` only if the `arg` is not a Reference value. |
+| `isNotArray(arg)` | Returns `true` only if `arg` is not an Array. |
+| `isNotBoolean(arg)` | Returns `true` only if `arg` is not a Boolean. |
+| `isNotChar(arg)` | Returns `true` only if `arg` is not a Char. |
+| `isNotNumber(arg)` | Returns `true` only if `arg` is not a Number. |
+| `isNotObject(arg)` | Returns `true` only if `arg` is not an Object. |
+| `isNotString(arg)` | Returns `true` only if `arg` is not a String. |
+| `isNotNull(arg)` | Returns `true` only if `arg` is not null. |
+| `isNotUndefined(arg)` | Returns `true` only if `arg` is not undefined. |
+| `isNotPrimitive(arg)` | Returns `true` only if `arg` is not a Primitive value. |
+| `isNotReference(arg)` | Returns `true` only if `arg` is not a Reference value. |
 | **Arg Functions** | For checking the type of command line arguments. |
-| `hasAColon(arg)` | Returns `true` only if the `arg` contains a `colon`. |
-| `isNumeric(arg)` | Returns `true` only if the `arg` is a numeric string. |
-| `isArrayIndex(arg)` | Returns `true` only if the `arg` is an array index. |
-| `isObjectKey(arg)` | Returns `true` only if the `arg` is an object key. |
-| `isFlag(arg)` | Returns `true` only if the `arg` is a flag. |
-| `isNotFlag(arg)` | Returns `true` only if the `arg` is NOT a flag. |
-| `isSingleFlag(arg)` | Returns `true` only if the `arg` is a single flag. |
-| `isDoubleFlag(arg)` | Returns `true` only if the `arg` is a double flag. |
-| `isTripleFlag(arg)` | Returns `true` only if the `arg` is a triple flag. |
+| `hasAColon(arg)` | Returns `true` only if `arg` contains a `colon`. |
+| `isNumeric(arg)` | Returns `true` only if `arg` is a numeric string. |
+| `isArrayIndex(arg)` | Returns `true` only if `arg` is an array index. |
+| `isObjectKey(arg)` | Returns `true` only if `arg` is an object key. |
+| `isFlag(arg)` | Returns `true` only if `arg` is a flag. |
+| `isNotFlag(arg)` | Returns `true` only if `arg` is NOT a flag. |
+| `isSingleFlag(arg)` | Returns `true` only if `arg` is a single flag. |
+| `isDoubleFlag(arg)` | Returns `true` only if `arg` is a double flag. |
+| `isTripleFlag(arg)` | Returns `true` only if `arg` is a triple flag. |
 | **Array Functions** | For checking the type of Arrays. |
-| `isEmptyArray(arg)` | Returns `true` only if the `arg` is an empty Array. |
-| `isArrayOfArrays(arg)` | Returns `true` only if the `arg` is an Array of Arrays. |
-| `isArrayOfBooleans(arg)` | Returns `true` only if the `arg` is an Array of Boolean values. |
-| `isArrayOfChars(arg)` | Returns `true` only if the `arg` is an Array of Char values. |
-| `isArrayOfNumbers(arg)` | Returns `true` only if the `arg` is an Array of Numbers. |
-| `isArrayOfObjects(arg)` | Returns `true` only if the `arg` is an Array of Objects. |
-| `isArrayOfStrings(arg)` | Returns `true` only if the `arg` is an Array of Strings. |
+| `isEmptyArray(arg)` | Returns `true` only if `arg` is an empty Array. |
+| `isArrayOfArrays(arg)` | Returns `true` only if `arg` is an Array of Arrays. |
+| `isArrayOfBooleans(arg)` | Returns `true` only if `arg` is an Array of Boolean values. |
+| `isArrayOfChars(arg)` | Returns `true` only if `arg` is an Array of Char values. |
+| `isArrayOfNumbers(arg)` | Returns `true` only if `arg` is an Array of Numbers. |
+| `isArrayOfObjects(arg)` | Returns `true` only if `arg` is an Array of Objects. |
+| `isArrayOfStrings(arg)` | Returns `true` only if `arg` is an Array of Strings. |
 | **Object Functions** | For checking the type of Objects |
-| `isEmptyObject(arg)` | Returns `true` only if the `arg` is an empty Object. |
-| `isObjectOfArrays(arg)` | Returns `true` only if the `arg` is an Object only containing Array values. |
-| `isObjectOfBooleans(arg)` | Returns `true` only if the `arg` is an Object only containing Boolean values. |
-| `isObjectOfChars(arg)` | Returns `true` only if the `arg` is an Object only containing Char values. |
-| `isObjectOfNumbers(arg)` | Returns `true` only if the `arg` is an Object only containing Number values. |
-| `isObjectOfObjects(arg)` | Returns `true` only if the `arg` is an Object only containing Object values. |
-| `isObjectOfStrings(arg)` | Returns `true` only if the `arg` is an Object only containing String values. |
+| `isEmptyObject(arg)` | Returns `true` only if `arg` is an empty Object. |
+| `isObjectOfArrays(arg)` | Returns `true` only if `arg` is an Object only containing Array values. |
+| `isObjectOfBooleans(arg)` | Returns `true` only if `arg` is an Object only containing Boolean values. |
+| `isObjectOfChars(arg)` | Returns `true` only if `arg` is an Object only containing Char values. |
+| `isObjectOfNumbers(arg)` | Returns `true` only if `arg` is an Object only containing Number values. |
+| `isObjectOfObjects(arg)` | Returns `true` only if `arg` is an Object only containing Object values. |
+| `isObjectOfStrings(arg)` | Returns `true` only if `arg` is an Object only containing String values. |
 
 
 ## Package details

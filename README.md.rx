@@ -1,8 +1,9 @@
 
 # whichtype
 {{ "whichtype" | NpmLink }} is a small `JavaScript/TypeScript` library for checking the type of your variables, written in `TypeScript`.
+It has no dependencies.
 
-I felt the need for `whichtype` when I was working on {{ gh.link("iaseth/josn") }}.
+I felt the need for `whichtype` when I was working on {{ gh.link("iaseth/josn", "josn") }}.
 
 I am using {{ gh.link("iaseth/readmix", "readmix") }} for generating this README.
 You can view the source file [here](https://github.com/iaseth/whichtype/blob/master/README.md.rx).
@@ -15,13 +16,14 @@ You can view the source file [here](https://github.com/iaseth/whichtype/blob/mas
 ## Installation
 You can install {{ "whichtype" | NpmLink }} with the following command:
 => npm i whichtype
-Now you can import `whichtype` in your project as follows.
+Now, you can import `whichtype` in your project as follows.
 => const whichtype = require("whichtype");
 => whichtype.isNumber(100);    // true
 
 
 ## Documentation
-`Whichtype` export the following functions, each of them accept a single argument and return `true` or `false`.
+`whichtype` exports the following functions.
+Each of these functions accept a single argument and return `true` or `false`.
 
 | Function | Description |
 | -------- | ----------- |{% for fun in parse("docs.json")["functions"] %}
