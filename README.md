@@ -91,15 +91,16 @@ Each of these functions accept a single argument and return `true` or `false`.
 
 
 ## Package details
-| `Name`        | `Value`                                                                            |
-| ------------- | ---------------------------------------------------------------------------------- |
-| `Name`        | `whichtype`                                                                        |
-| `Description` | `Whichtype is a small JavaScript library for checking the type of your variables.` |
-| `Version`     | `1.4.0`                                                                            |
-| `Author`      | `iaseth`                                                                           |
-| `Homepage`    | `https://github.com/iaseth/whichtype`                                              |
-| `Repository`  | `iaseth/whichtype`                                                                 |
-| `License`     | `MIT`                                                                              |
+| `Name`         | `Value`                                                                            |
+| -------------- | ---------------------------------------------------------------------------------- |
+| `Name`         | `whichtype`                                                                        |
+| `Description`  | `Whichtype is a small JavaScript library for checking the type of your variables.` |
+| `Version`      | `1.4.0`                                                                            |
+| `Author`       | `iaseth`                                                                           |
+| `Homepage`     | `https://github.com/iaseth/whichtype`                                              |
+| `Repository`   | `iaseth/whichtype`                                                                 |
+| `License`      | `MIT`                                                                              |
+| `Dependencies` | `0`                                                                                |
 
 
 
