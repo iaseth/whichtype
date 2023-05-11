@@ -1,4 +1,4 @@
-const { isLowerCase, isUpperCase } = require("../dist/strings");
+const { isLowerCase, isUpperCase } = require("../../dist/strings");
 
 
 

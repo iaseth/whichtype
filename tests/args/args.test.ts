@@ -1,4 +1,4 @@
-const argfuncs = require("../dist/args");
+const argfuncs = require("../../dist/args");
 
 
 

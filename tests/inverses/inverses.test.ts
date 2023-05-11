@@ -1,4 +1,4 @@
-const whichtype = require("../dist");
+const whichtype = require("../../dist");
 
 
 

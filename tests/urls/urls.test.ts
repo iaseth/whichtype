@@ -1,4 +1,4 @@
-const urlfuncs = require("../dist/urls");
+const urlfuncs = require("../../dist/urls");
 
 
 

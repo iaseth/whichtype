@@ -1,4 +1,4 @@
-const objectfuncs = require("../dist/object");
+const objectfuncs = require("../../dist/object");
 
 
 

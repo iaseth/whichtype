@@ -1,4 +1,4 @@
-const arrayfuncs = require("../dist/array");
+const arrayfuncs = require("../../dist/array");
 
 
 
