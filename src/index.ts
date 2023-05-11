@@ -32,12 +32,14 @@ export {
 
 
 export {
+	hasAColon,
 	isNumeric,
 	isArrayIndex,
 	isObjectKey,
+
 	isFlag,
 	isNotFlag,
-	hasAColon,
+
 	isSingleFlag,
 	isDoubleFlag,
 	isTripleFlag,

@@ -2,6 +2,10 @@ import { isString } from "./basictypes";
 
 
 
+export function hasAColon (arg: string) : boolean {
+	return arg.includes(":");
+}
+
 export function isNumeric (x: string) {
 	if (typeof x !== "string") {
 		return false;
@@ -9,6 +13,7 @@ export function isNumeric (x: string) {
 
 	return !isNaN(x as any) && !isNaN(parseFloat(x));
 }
+
 
 export function isArrayIndex (x: string) {
 	return isNumeric(x);
@@ -33,12 +38,6 @@ export function isFlag (arg: string) : boolean {
 
 export function isNotFlag (arg: string) : boolean {
 	return !isFlag(arg);
-}
-
-
-
-export function hasAColon (arg: string) : boolean {
-	return arg.includes(":");
 }
 
 

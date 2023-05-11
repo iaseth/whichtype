@@ -60,7 +60,17 @@ whichtype.isNumber(100);    // true
 | `isNotUndefined(arg)` | Returns `true` only if the `arg` is not undefined. |
 | `isNotPrimitive(arg)` | Returns `true` only if the `arg` is not a Primitive value. |
 | `isNotReference(arg)` | Returns `true` only if the `arg` is not a Reference value. |
-| **Array Functions** |  |
+| **Arg Functions** | For checking the type of command line arguments. |
+| `hasAColon(arg)` | Returns `true` only if the `arg` contains a `colon`. |
+| `isNumeric(arg)` | Returns `true` only if the `arg` is a numeric string. |
+| `isArrayIndex(arg)` | Returns `true` only if the `arg` is an array index. |
+| `isObjectKey(arg)` | Returns `true` only if the `arg` is an object key. |
+| `isFlag(arg)` | Returns `true` only if the `arg` is a flag. |
+| `isNotFlag(arg)` | Returns `true` only if the `arg` is NOT a flag. |
+| `isSingleFlag(arg)` | Returns `true` only if the `arg` is a single flag. |
+| `isDoubleFlag(arg)` | Returns `true` only if the `arg` is a double flag. |
+| `isTripleFlag(arg)` | Returns `true` only if the `arg` is a triple flag. |
+| **Array Functions** | For checking the type of Arrays. |
 | `isEmptyArray(arg)` | Returns `true` only if the `arg` is an empty Array. |
 | `isArrayOfArrays(arg)` | Returns `true` only if the `arg` is an Array of Arrays. |
 | `isArrayOfBooleans(arg)` | Returns `true` only if the `arg` is an Array of Boolean values. |
@@ -68,7 +78,7 @@ whichtype.isNumber(100);    // true
 | `isArrayOfNumbers(arg)` | Returns `true` only if the `arg` is an Array of Numbers. |
 | `isArrayOfObjects(arg)` | Returns `true` only if the `arg` is an Array of Objects. |
 | `isArrayOfStrings(arg)` | Returns `true` only if the `arg` is an Array of Strings. |
-| **Object Functions** |  |
+| **Object Functions** | For checking the type of Objects |
 | `isEmptyObject(arg)` | Returns `true` only if the `arg` is an empty Object. |
 | `isObjectOfArrays(arg)` | Returns `true` only if the `arg` is an Object only containing Array values. |
 | `isObjectOfBooleans(arg)` | Returns `true` only if the `arg` is an Object only containing Boolean values. |

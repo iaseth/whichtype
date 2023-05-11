@@ -30,7 +30,20 @@
 		{"name": "isNotReference", "description": "Returns `true` only if the `arg` is not a Reference value."},
 
 
-		{"heading": "Array Functions"},
+		{"heading": "Arg Functions", "description": "For checking the type of command line arguments."},
+		{"name": "hasAColon", "description": "Returns `true` only if the `arg` contains a `colon`."},
+		{"name": "isNumeric", "description": "Returns `true` only if the `arg` is a numeric string."},
+		{"name": "isArrayIndex", "description": "Returns `true` only if the `arg` is an array index."},
+		{"name": "isObjectKey", "description": "Returns `true` only if the `arg` is an object key."},
+
+		{"name": "isFlag", "description": "Returns `true` only if the `arg` is a flag."},
+		{"name": "isNotFlag", "description": "Returns `true` only if the `arg` is NOT a flag."},
+		{"name": "isSingleFlag", "description": "Returns `true` only if the `arg` is a single flag."},
+		{"name": "isDoubleFlag", "description": "Returns `true` only if the `arg` is a double flag."},
+		{"name": "isTripleFlag", "description": "Returns `true` only if the `arg` is a triple flag."},
+
+
+		{"heading": "Array Functions", "description": "For checking the type of Arrays."},
 		{"name": "isEmptyArray", "description": "Returns `true` only if the `arg` is an empty Array."},
 		{"name": "isArrayOfArrays", "description": "Returns `true` only if the `arg` is an Array of Arrays."},
 		{"name": "isArrayOfBooleans", "description": "Returns `true` only if the `arg` is an Array of Boolean values."},
@@ -39,7 +52,8 @@
 		{"name": "isArrayOfObjects", "description": "Returns `true` only if the `arg` is an Array of Objects."},
 		{"name": "isArrayOfStrings", "description": "Returns `true` only if the `arg` is an Array of Strings."},
 
-		{"heading": "Object Functions"},
+
+		{"heading": "Object Functions", "description": "For checking the type of Objects"},
 		{"name": "isEmptyObject", "description": "Returns `true` only if the `arg` is an empty Object."},
 		{"name": "isObjectOfArrays", "description": "Returns `true` only if the `arg` is an Object only containing Array values."},
 		{"name": "isObjectOfBooleans", "description": "Returns `true` only if the `arg` is an Object only containing Boolean values."},
