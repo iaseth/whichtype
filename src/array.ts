@@ -9,6 +9,13 @@ export function isEmptyArray (x: any): boolean {
 	return false;
 }
 
+export function isNonEmptyArray (x: any): boolean {
+	if (isArray(x) && x.length > 0) {
+		return true;
+	}
+	return false;
+}
+
 export function isArrayOfArrays (x: any): boolean {
 	if (!isArray(x)) return false;
 	if (x.length === 0) return false;

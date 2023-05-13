@@ -48,6 +48,7 @@ export {
 
 export {
 	isEmptyArray,
+	isNonEmptyArray,
 	isArrayOfArrays,
 	isArrayOfBooleans,
 	isArrayOfChars,
@@ -59,6 +60,7 @@ export {
 
 export {
 	isEmptyObject,
+	isNonEmptyObject,
 	isObjectOfArrays,
 	isObjectOfBooleans,
 	isObjectOfChars,

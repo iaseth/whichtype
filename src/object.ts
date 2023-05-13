@@ -9,6 +9,13 @@ export function isEmptyObject (x: any): boolean {
 	return false;
 }
 
+export function isNonEmptyObject (x: any): boolean {
+	if (isObject(x) && Object.keys(x).length > 0) {
+		return true;
+	}
+	return false;
+}
+
 export function isObjectOfArrays (x: any): boolean {
 	if (!isObject(x)) return false;
 

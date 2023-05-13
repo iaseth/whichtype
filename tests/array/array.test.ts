@@ -6,8 +6,22 @@ test("isEmptyArray", () => {
 	const { isEmptyArray } = arrayfuncs;
 
 	expect(isEmptyArray([])).toBe(true);
+
+	expect(isEmptyArray([20])).toBe(false);
+	expect(isEmptyArray(["foo"])).toBe(false);
 	expect(isEmptyArray(20)).toBe(false);
 	expect(isEmptyArray("foo")).toBe(false);
+});
+
+test("isNonEmptyArray", () => {
+	const { isNonEmptyArray } = arrayfuncs;
+
+	expect(isNonEmptyArray([20])).toBe(true);
+	expect(isNonEmptyArray(["foo"])).toBe(true);
+
+	expect(isNonEmptyArray([])).toBe(false);
+	expect(isNonEmptyArray(20)).toBe(false);
+	expect(isNonEmptyArray("foo")).toBe(false);
 });
 
 test("isArrayOfArrays", () => {

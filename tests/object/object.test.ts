@@ -11,6 +11,15 @@ test("isEmptyObject", () => {
 	expect(isEmptyObject("foo")).toBe(false);
 });
 
+test("isNonEmptyObject", () => {
+	const { isNonEmptyObject } = objectfuncs;
+
+	expect(isNonEmptyObject({foo: "bar"})).toBe(true);
+
+	expect(isNonEmptyObject({})).toBe(false);
+	expect(isNonEmptyObject("foo")).toBe(false);
+});
+
 test("isObjectOfArrays", () => {
 	const { isObjectOfArrays } = objectfuncs;
 

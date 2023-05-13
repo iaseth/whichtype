@@ -74,6 +74,7 @@ Each of these functions accept a single argument and return `true` or `false`.
 | `isTripleFlag(arg)` | Returns `true` only if `arg` is a triple flag. |
 | **Array Functions** | For checking the type of Arrays. |
 | `isEmptyArray(arg)` | Returns `true` only if `arg` is an empty Array. |
+| `isNonEmptyArray(arg)` | Returns `true` only if `arg` is a non-empty Array. |
 | `isArrayOfArrays(arg)` | Returns `true` only if `arg` is an Array of Arrays. |
 | `isArrayOfBooleans(arg)` | Returns `true` only if `arg` is an Array of Boolean values. |
 | `isArrayOfChars(arg)` | Returns `true` only if `arg` is an Array of Char values. |
@@ -82,6 +83,7 @@ Each of these functions accept a single argument and return `true` or `false`.
 | `isArrayOfStrings(arg)` | Returns `true` only if `arg` is an Array of Strings. |
 | **Object Functions** | For checking the type of Objects |
 | `isEmptyObject(arg)` | Returns `true` only if `arg` is an empty Object. |
+| `isNonEmptyObject(arg)` | Returns `true` only if `arg` is a non-empty Object. |
 | `isObjectOfArrays(arg)` | Returns `true` only if `arg` is an Object only containing Array values. |
 | `isObjectOfBooleans(arg)` | Returns `true` only if `arg` is an Object only containing Boolean values. |
 | `isObjectOfChars(arg)` | Returns `true` only if `arg` is an Object only containing Char values. |
@@ -95,7 +97,7 @@ Each of these functions accept a single argument and return `true` or `false`.
 | -------------- | ---------------------------------------------------------------------------------- |
 | `Name`         | `whichtype`                                                                        |
 | `Description`  | `Whichtype is a small JavaScript library for checking the type of your variables.` |
-| `Version`      | `1.4.0`                                                                            |
+| `Version`      | `1.5.0`                                                                            |
 | `Author`       | `iaseth`                                                                           |
 | `Homepage`     | `https://github.com/iaseth/whichtype`                                              |
 | `Repository`   | `iaseth/whichtype`                                                                 |
