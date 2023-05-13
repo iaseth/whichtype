@@ -16,18 +16,18 @@
 
 
 		{"heading": "Inverses"},
-		{"name": "isNotArray", "description": "Returns `true` only if `arg` is not an Array."},
-		{"name": "isNotBoolean", "description": "Returns `true` only if `arg` is not a Boolean."},
-		{"name": "isNotChar", "description": "Returns `true` only if `arg` is not a Char."},
-		{"name": "isNotNumber", "description": "Returns `true` only if `arg` is not a Number."},
-		{"name": "isNotObject", "description": "Returns `true` only if `arg` is not an Object."},
-		{"name": "isNotString", "description": "Returns `true` only if `arg` is not a String."},
+		{"name": "isNotArray", "description": "Returns `true` only if `arg` is **not** an Array."},
+		{"name": "isNotBoolean", "description": "Returns `true` only if `arg` is **not** a Boolean."},
+		{"name": "isNotChar", "description": "Returns `true` only if `arg` is **not** a Char."},
+		{"name": "isNotNumber", "description": "Returns `true` only if `arg` is **not** a Number."},
+		{"name": "isNotObject", "description": "Returns `true` only if `arg` is **not** an Object."},
+		{"name": "isNotString", "description": "Returns `true` only if `arg` is **not** a String."},
 
-		{"name": "isNotNull", "description": "Returns `true` only if `arg` is not null."},
-		{"name": "isNotUndefined", "description": "Returns `true` only if `arg` is not undefined."},
+		{"name": "isNotNull", "description": "Returns `true` only if `arg` is **not** null."},
+		{"name": "isNotUndefined", "description": "Returns `true` only if `arg` is **not** undefined."},
 
-		{"name": "isNotPrimitive", "description": "Returns `true` only if `arg` is not a Primitive value."},
-		{"name": "isNotReference", "description": "Returns `true` only if `arg` is not a Reference value."},
+		{"name": "isNotPrimitive", "description": "Returns `true` only if `arg` is **not** a Primitive value."},
+		{"name": "isNotReference", "description": "Returns `true` only if `arg` is **not** a Reference value."},
 
 
 		{"heading": "Arg Functions", "description": "For checking the type of command line arguments."},

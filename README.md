@@ -52,16 +52,16 @@ Each of these functions accept a single argument and return `true` or `false`.
 | `isPrimitive(arg)` | Returns `true` only if `arg` is a Primitive value. |
 | `isReference(arg)` | Returns `true` only if `arg` is a Reference value. |
 | **Inverses** |  |
-| `isNotArray(arg)` | Returns `true` only if `arg` is not an Array. |
-| `isNotBoolean(arg)` | Returns `true` only if `arg` is not a Boolean. |
-| `isNotChar(arg)` | Returns `true` only if `arg` is not a Char. |
-| `isNotNumber(arg)` | Returns `true` only if `arg` is not a Number. |
-| `isNotObject(arg)` | Returns `true` only if `arg` is not an Object. |
-| `isNotString(arg)` | Returns `true` only if `arg` is not a String. |
-| `isNotNull(arg)` | Returns `true` only if `arg` is not null. |
-| `isNotUndefined(arg)` | Returns `true` only if `arg` is not undefined. |
-| `isNotPrimitive(arg)` | Returns `true` only if `arg` is not a Primitive value. |
-| `isNotReference(arg)` | Returns `true` only if `arg` is not a Reference value. |
+| `isNotArray(arg)` | Returns `true` only if `arg` is **not** an Array. |
+| `isNotBoolean(arg)` | Returns `true` only if `arg` is **not** a Boolean. |
+| `isNotChar(arg)` | Returns `true` only if `arg` is **not** a Char. |
+| `isNotNumber(arg)` | Returns `true` only if `arg` is **not** a Number. |
+| `isNotObject(arg)` | Returns `true` only if `arg` is **not** an Object. |
+| `isNotString(arg)` | Returns `true` only if `arg` is **not** a String. |
+| `isNotNull(arg)` | Returns `true` only if `arg` is **not** null. |
+| `isNotUndefined(arg)` | Returns `true` only if `arg` is **not** undefined. |
+| `isNotPrimitive(arg)` | Returns `true` only if `arg` is **not** a Primitive value. |
+| `isNotReference(arg)` | Returns `true` only if `arg` is **not** a Reference value. |
 | **Arg Functions** | For checking the type of command line arguments. |
 | `hasAColon(arg)` | Returns `true` only if `arg` contains a `colon`. |
 | `isNumeric(arg)` | Returns `true` only if `arg` is a numeric string. |
