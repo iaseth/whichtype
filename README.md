@@ -47,34 +47,34 @@ Each of these functions accept a single argument and return `true` or `false`.
 | `isNumber(arg)` | Returns `true` only if `arg` is a Number. |
 | `isObject(arg)` | Returns `true` only if `arg` is an Object. |
 | `isString(arg)` | Returns `true` only if `arg` is a String. |
-| `isNull(arg)` | Returns `true` only if `arg` is null. |
-| `isUndefined(arg)` | Returns `true` only if `arg` is undefined. |
-| `isPrimitive(arg)` | Returns `true` only if `arg` is a Primitive value. |
-| `isReference(arg)` | Returns `true` only if `arg` is a Reference value. |
+| `isNull(arg)` | Returns `true` only if `arg` is **null**. |
+| `isUndefined(arg)` | Returns `true` only if `arg` is **undefined**. |
+| `isPrimitive(arg)` | Returns `true` only if `arg` is a **Primitive** value. |
+| `isReference(arg)` | Returns `true` only if `arg` is a **Reference** value. |
 | **Inverses** |  |
-| `isNotArray(arg)` | Returns `true` only if `arg` is **not** an Array. |
-| `isNotBoolean(arg)` | Returns `true` only if `arg` is **not** a Boolean. |
-| `isNotChar(arg)` | Returns `true` only if `arg` is **not** a Char. |
-| `isNotNumber(arg)` | Returns `true` only if `arg` is **not** a Number. |
-| `isNotObject(arg)` | Returns `true` only if `arg` is **not** an Object. |
-| `isNotString(arg)` | Returns `true` only if `arg` is **not** a String. |
-| `isNotNull(arg)` | Returns `true` only if `arg` is **not** null. |
-| `isNotUndefined(arg)` | Returns `true` only if `arg` is **not** undefined. |
-| `isNotPrimitive(arg)` | Returns `true` only if `arg` is **not** a Primitive value. |
-| `isNotReference(arg)` | Returns `true` only if `arg` is **not** a Reference value. |
+| `isNotArray(arg)` | Returns `true` only if `arg` is **NOT** an Array. |
+| `isNotBoolean(arg)` | Returns `true` only if `arg` is **NOT** a Boolean. |
+| `isNotChar(arg)` | Returns `true` only if `arg` is **NOT** a Char. |
+| `isNotNumber(arg)` | Returns `true` only if `arg` is **NOT** a Number. |
+| `isNotObject(arg)` | Returns `true` only if `arg` is **NOT** an Object. |
+| `isNotString(arg)` | Returns `true` only if `arg` is **NOT** a String. |
+| `isNotNull(arg)` | Returns `true` only if `arg` is **NOT** null. |
+| `isNotUndefined(arg)` | Returns `true` only if `arg` is **NOT** undefined. |
+| `isNotPrimitive(arg)` | Returns `true` only if `arg` is **NOT** a **Primitive** value. |
+| `isNotReference(arg)` | Returns `true` only if `arg` is **NOT** a **Reference** value. |
 | **Arg Functions** | For checking the type of command line arguments. |
 | `hasAColon(arg)` | Returns `true` only if `arg` contains a `colon`. |
 | `isNumeric(arg)` | Returns `true` only if `arg` is a numeric string. |
-| `isArrayIndex(arg)` | Returns `true` only if `arg` is an array index. |
-| `isObjectKey(arg)` | Returns `true` only if `arg` is an object key. |
-| `isFlag(arg)` | Returns `true` only if `arg` is a flag. |
-| `isNotFlag(arg)` | Returns `true` only if `arg` is NOT a flag. |
-| `isSingleFlag(arg)` | Returns `true` only if `arg` is a single flag. |
-| `isDoubleFlag(arg)` | Returns `true` only if `arg` is a double flag. |
-| `isTripleFlag(arg)` | Returns `true` only if `arg` is a triple flag. |
+| `isArrayIndex(arg)` | Returns `true` only if `arg` is an **Array Index**. |
+| `isObjectKey(arg)` | Returns `true` only if `arg` is an **Object Key**. |
+| `isFlag(arg)` | Returns `true` only if `arg` is a **flag**. |
+| `isNotFlag(arg)` | Returns `true` only if `arg` is **NOT** a **flag**. |
+| `isSingleFlag(arg)` | Returns `true` only if `arg` is a **single flag**. |
+| `isDoubleFlag(arg)` | Returns `true` only if `arg` is a **double flag**. |
+| `isTripleFlag(arg)` | Returns `true` only if `arg` is a **triple flag**. |
 | **Array Functions** | For checking the type of Arrays. |
-| `isEmptyArray(arg)` | Returns `true` only if `arg` is an empty Array. |
-| `isNonEmptyArray(arg)` | Returns `true` only if `arg` is a non-empty Array. |
+| `isEmptyArray(arg)` | Returns `true` only if `arg` is an **empty** Array. |
+| `isNonEmptyArray(arg)` | Returns `true` only if `arg` is a **non-empty** Array. |
 | `isArrayOfArrays(arg)` | Returns `true` only if `arg` is an Array of Arrays. |
 | `isArrayOfBooleans(arg)` | Returns `true` only if `arg` is an Array of Boolean values. |
 | `isArrayOfChars(arg)` | Returns `true` only if `arg` is an Array of Char values. |
@@ -82,8 +82,8 @@ Each of these functions accept a single argument and return `true` or `false`.
 | `isArrayOfObjects(arg)` | Returns `true` only if `arg` is an Array of Objects. |
 | `isArrayOfStrings(arg)` | Returns `true` only if `arg` is an Array of Strings. |
 | **Object Functions** | For checking the type of Objects |
-| `isEmptyObject(arg)` | Returns `true` only if `arg` is an empty Object. |
-| `isNonEmptyObject(arg)` | Returns `true` only if `arg` is a non-empty Object. |
+| `isEmptyObject(arg)` | Returns `true` only if `arg` is an **empty** Object. |
+| `isNonEmptyObject(arg)` | Returns `true` only if `arg` is a **non-empty** Object. |
 | `isObjectOfArrays(arg)` | Returns `true` only if `arg` is an Object only containing Array values. |
 | `isObjectOfBooleans(arg)` | Returns `true` only if `arg` is an Object only containing Boolean values. |
 | `isObjectOfChars(arg)` | Returns `true` only if `arg` is an Object only containing Char values. |

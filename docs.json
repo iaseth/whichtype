@@ -8,44 +8,44 @@
 		{"name": "isObject", "description": "Returns `true` only if `arg` is an Object."},
 		{"name": "isString", "description": "Returns `true` only if `arg` is a String."},
 
-		{"name": "isNull", "description": "Returns `true` only if `arg` is null."},
-		{"name": "isUndefined", "description": "Returns `true` only if `arg` is undefined."},
+		{"name": "isNull", "description": "Returns `true` only if `arg` is **null**."},
+		{"name": "isUndefined", "description": "Returns `true` only if `arg` is **undefined**."},
 
-		{"name": "isPrimitive", "description": "Returns `true` only if `arg` is a Primitive value."},
-		{"name": "isReference", "description": "Returns `true` only if `arg` is a Reference value."},
+		{"name": "isPrimitive", "description": "Returns `true` only if `arg` is a **Primitive** value."},
+		{"name": "isReference", "description": "Returns `true` only if `arg` is a **Reference** value."},
 
 
 		{"heading": "Inverses"},
-		{"name": "isNotArray", "description": "Returns `true` only if `arg` is **not** an Array."},
-		{"name": "isNotBoolean", "description": "Returns `true` only if `arg` is **not** a Boolean."},
-		{"name": "isNotChar", "description": "Returns `true` only if `arg` is **not** a Char."},
-		{"name": "isNotNumber", "description": "Returns `true` only if `arg` is **not** a Number."},
-		{"name": "isNotObject", "description": "Returns `true` only if `arg` is **not** an Object."},
-		{"name": "isNotString", "description": "Returns `true` only if `arg` is **not** a String."},
+		{"name": "isNotArray", "description": "Returns `true` only if `arg` is **NOT** an Array."},
+		{"name": "isNotBoolean", "description": "Returns `true` only if `arg` is **NOT** a Boolean."},
+		{"name": "isNotChar", "description": "Returns `true` only if `arg` is **NOT** a Char."},
+		{"name": "isNotNumber", "description": "Returns `true` only if `arg` is **NOT** a Number."},
+		{"name": "isNotObject", "description": "Returns `true` only if `arg` is **NOT** an Object."},
+		{"name": "isNotString", "description": "Returns `true` only if `arg` is **NOT** a String."},
 
-		{"name": "isNotNull", "description": "Returns `true` only if `arg` is **not** null."},
-		{"name": "isNotUndefined", "description": "Returns `true` only if `arg` is **not** undefined."},
+		{"name": "isNotNull", "description": "Returns `true` only if `arg` is **NOT** null."},
+		{"name": "isNotUndefined", "description": "Returns `true` only if `arg` is **NOT** undefined."},
 
-		{"name": "isNotPrimitive", "description": "Returns `true` only if `arg` is **not** a Primitive value."},
-		{"name": "isNotReference", "description": "Returns `true` only if `arg` is **not** a Reference value."},
+		{"name": "isNotPrimitive", "description": "Returns `true` only if `arg` is **NOT** a **Primitive** value."},
+		{"name": "isNotReference", "description": "Returns `true` only if `arg` is **NOT** a **Reference** value."},
 
 
 		{"heading": "Arg Functions", "description": "For checking the type of command line arguments."},
 		{"name": "hasAColon", "description": "Returns `true` only if `arg` contains a `colon`."},
 		{"name": "isNumeric", "description": "Returns `true` only if `arg` is a numeric string."},
-		{"name": "isArrayIndex", "description": "Returns `true` only if `arg` is an array index."},
-		{"name": "isObjectKey", "description": "Returns `true` only if `arg` is an object key."},
+		{"name": "isArrayIndex", "description": "Returns `true` only if `arg` is an **Array Index**."},
+		{"name": "isObjectKey", "description": "Returns `true` only if `arg` is an **Object Key**."},
 
-		{"name": "isFlag", "description": "Returns `true` only if `arg` is a flag."},
-		{"name": "isNotFlag", "description": "Returns `true` only if `arg` is NOT a flag."},
-		{"name": "isSingleFlag", "description": "Returns `true` only if `arg` is a single flag."},
-		{"name": "isDoubleFlag", "description": "Returns `true` only if `arg` is a double flag."},
-		{"name": "isTripleFlag", "description": "Returns `true` only if `arg` is a triple flag."},
+		{"name": "isFlag", "description": "Returns `true` only if `arg` is a **flag**."},
+		{"name": "isNotFlag", "description": "Returns `true` only if `arg` is **NOT** a **flag**."},
+		{"name": "isSingleFlag", "description": "Returns `true` only if `arg` is a **single flag**."},
+		{"name": "isDoubleFlag", "description": "Returns `true` only if `arg` is a **double flag**."},
+		{"name": "isTripleFlag", "description": "Returns `true` only if `arg` is a **triple flag**."},
 
 
 		{"heading": "Array Functions", "description": "For checking the type of Arrays."},
-		{"name": "isEmptyArray", "description": "Returns `true` only if `arg` is an empty Array."},
-		{"name": "isNonEmptyArray", "description": "Returns `true` only if `arg` is a non-empty Array."},
+		{"name": "isEmptyArray", "description": "Returns `true` only if `arg` is an **empty** Array."},
+		{"name": "isNonEmptyArray", "description": "Returns `true` only if `arg` is a **non-empty** Array."},
 		{"name": "isArrayOfArrays", "description": "Returns `true` only if `arg` is an Array of Arrays."},
 		{"name": "isArrayOfBooleans", "description": "Returns `true` only if `arg` is an Array of Boolean values."},
 		{"name": "isArrayOfChars", "description": "Returns `true` only if `arg` is an Array of Char values."},
@@ -55,8 +55,8 @@
 
 
 		{"heading": "Object Functions", "description": "For checking the type of Objects"},
-		{"name": "isEmptyObject", "description": "Returns `true` only if `arg` is an empty Object."},
-		{"name": "isNonEmptyObject", "description": "Returns `true` only if `arg` is a non-empty Object."},
+		{"name": "isEmptyObject", "description": "Returns `true` only if `arg` is an **empty** Object."},
+		{"name": "isNonEmptyObject", "description": "Returns `true` only if `arg` is a **non-empty** Object."},
 		{"name": "isObjectOfArrays", "description": "Returns `true` only if `arg` is an Object only containing Array values."},
 		{"name": "isObjectOfBooleans", "description": "Returns `true` only if `arg` is an Object only containing Boolean values."},
 		{"name": "isObjectOfChars", "description": "Returns `true` only if `arg` is an Object only containing Char values."},
