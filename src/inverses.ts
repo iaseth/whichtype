@@ -41,3 +41,6 @@ export function isNotPrimitive (x: any): boolean {
 export function isNotReference (x: any): boolean {
 	return !isReference(x);
 }
+
+export const isNotSimple = isNotPrimitive;
+export const isNotComplex = isNotReference;

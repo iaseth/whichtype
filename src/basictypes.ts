@@ -44,3 +44,6 @@ export function isPrimitive (val: any): boolean {
 export function isReference (val: any): boolean {
 	return isArray(val) || isObject(val);
 }
+
+export const isSimple = isPrimitive;
+export const isComplex = isReference;

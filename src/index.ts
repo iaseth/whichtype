@@ -12,6 +12,9 @@ export {
 
 	isPrimitive,
 	isReference,
+
+	isSimple,
+	isComplex,
 } from "./basictypes";
 
 
@@ -28,6 +31,9 @@ export {
 
 	isNotPrimitive,
 	isNotReference,
+
+	isNotSimple,
+	isNotComplex,
 } from './inverses';
 
 

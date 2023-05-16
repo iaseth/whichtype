@@ -13,6 +13,8 @@
 
 		{"name": "isPrimitive", "description": "Returns `true` only if `arg` is a **Primitive** value."},
 		{"name": "isReference", "description": "Returns `true` only if `arg` is a **Reference** value."},
+		{"name": "isSimple", "description": "Alias for **isPrimitive**."},
+		{"name": "isComplex", "description": "Alias for **isReference**."},
 
 
 		{"heading": "Inverses"},
@@ -28,6 +30,8 @@
 
 		{"name": "isNotPrimitive", "description": "Returns `true` only if `arg` is **NOT** a **Primitive** value."},
 		{"name": "isNotReference", "description": "Returns `true` only if `arg` is **NOT** a **Reference** value."},
+		{"name": "isNotSimple", "description": "Alias for **isNotPrimitive**."},
+		{"name": "isNotComplex", "description": "Alias for **isNotReference**."},
 
 
 		{"heading": "Arg Functions", "description": "For checking the type of command line arguments."},
@@ -53,9 +57,9 @@
 		{"name": "isArrayOfObjects", "description": "Returns `true` only if `arg` is an Array of Objects."},
 		{"name": "isArrayOfStrings", "description": "Returns `true` only if `arg` is an Array of Strings."},
 
-		{"name": "isArray2D", "description": "Returns `true` only if `arg` is an Array of Arrays."},
-		{"name": "isGrid", "description": "Returns `true` only if `arg` is an Array of Arrays."},
-		{"name": "isTable", "description": "Returns `true` only if `arg` is an Array of Objects."},
+		{"name": "isArray2D", "description": "Alias for **isArrayOfArrays**."},
+		{"name": "isGrid", "description": "Alias for **isArrayOfArrays**."},
+		{"name": "isTable", "description": "Alias for **isArrayOfObjects**."},
 
 
 		{"heading": "Object Functions", "description": "For checking the type of Objects"},
@@ -68,7 +72,7 @@
 		{"name": "isObjectOfObjects", "description": "Returns `true` only if `arg` is an Object only containing Object values."},
 		{"name": "isObjectOfStrings", "description": "Returns `true` only if `arg` is an Object only containing String values."},
 
-		{"name": "isHashTable", "description": "Returns `true` only if `arg` is an Object only containing Array values."},
-		{"name": "isObject2D", "description": "Returns `true` only if `arg` is an Object only containing Object values."},
+		{"name": "isHashTable", "description": "Alias for **isObjectOfArrays**."},
+		{"name": "isObject2D", "description": "Alias for **isObjectOfObjects**."},
 	]
 }
