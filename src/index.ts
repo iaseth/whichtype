@@ -55,6 +55,10 @@ export {
 	isArrayOfNumbers,
 	isArrayOfObjects,
 	isArrayOfStrings,
+
+	isArray2D,
+	isGrid,
+	isTable,
 } from './array';
 
 

@@ -53,6 +53,10 @@
 		{"name": "isArrayOfObjects", "description": "Returns `true` only if `arg` is an Array of Objects."},
 		{"name": "isArrayOfStrings", "description": "Returns `true` only if `arg` is an Array of Strings."},
 
+		{"name": "isArray2D", "description": "Returns `true` only if `arg` is an Array of Arrays."},
+		{"name": "isGrid", "description": "Returns `true` only if `arg` is an Array of Arrays."},
+		{"name": "isTable", "description": "Returns `true` only if `arg` is an Array of Objects."},
+
 
 		{"heading": "Object Functions", "description": "For checking the type of Objects"},
 		{"name": "isEmptyObject", "description": "Returns `true` only if `arg` is an **empty** Object."},

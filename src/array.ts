@@ -69,3 +69,7 @@ export function isArrayOfStrings (x: any): boolean {
 	}
 	return true;
 }
+
+export const isArray2D = isArrayOfArrays;
+export const isGrid = isArrayOfArrays;
+export const isTable = isArrayOfObjects;
