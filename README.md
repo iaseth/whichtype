@@ -81,6 +81,9 @@ Each of these functions accept a single argument and return `true` or `false`.
 | `isArrayOfNumbers(arg)` | Returns `true` only if `arg` is an Array of Numbers. |
 | `isArrayOfObjects(arg)` | Returns `true` only if `arg` is an Array of Objects. |
 | `isArrayOfStrings(arg)` | Returns `true` only if `arg` is an Array of Strings. |
+| `isArray2D(arg)` | Returns `true` only if `arg` is an Array of Arrays. |
+| `isGrid(arg)` | Returns `true` only if `arg` is an Array of Arrays. |
+| `isTable(arg)` | Returns `true` only if `arg` is an Array of Objects. |
 | **Object Functions** | For checking the type of Objects |
 | `isEmptyObject(arg)` | Returns `true` only if `arg` is an **empty** Object. |
 | `isNonEmptyObject(arg)` | Returns `true` only if `arg` is a **non-empty** Object. |
@@ -90,6 +93,8 @@ Each of these functions accept a single argument and return `true` or `false`.
 | `isObjectOfNumbers(arg)` | Returns `true` only if `arg` is an Object only containing Number values. |
 | `isObjectOfObjects(arg)` | Returns `true` only if `arg` is an Object only containing Object values. |
 | `isObjectOfStrings(arg)` | Returns `true` only if `arg` is an Object only containing String values. |
+| `isHashTable(arg)` | Returns `true` only if `arg` is an Object only containing Array values. |
+| `isObject2D(arg)` | Returns `true` only if `arg` is an Object only containing Object values. |
 
 
 ## Package details
@@ -97,7 +102,7 @@ Each of these functions accept a single argument and return `true` or `false`.
 | -------------- | ---------------------------------------------------------------------------------- |
 | `Name`         | `whichtype`                                                                        |
 | `Description`  | `Whichtype is a small JavaScript library for checking the type of your variables.` |
-| `Version`      | `1.5.0`                                                                            |
+| `Version`      | `1.6.0`                                                                            |
 | `Author`       | `iaseth`                                                                           |
 | `Homepage`     | `https://github.com/iaseth/whichtype`                                              |
 | `Repository`   | `iaseth/whichtype`                                                                 |
