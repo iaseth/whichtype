@@ -51,6 +51,8 @@ Each of these functions accept a single argument and return `true` or `false`.
 | `isUndefined(arg)` | Returns `true` only if `arg` is **undefined**. |
 | `isPrimitive(arg)` | Returns `true` only if `arg` is a **Primitive** value. |
 | `isReference(arg)` | Returns `true` only if `arg` is a **Reference** value. |
+| `isSimple(arg)` | Alias for **isPrimitive**. |
+| `isComplex(arg)` | Alias for **isReference**. |
 | **Inverses** |  |
 | `isNotArray(arg)` | Returns `true` only if `arg` is **NOT** an Array. |
 | `isNotBoolean(arg)` | Returns `true` only if `arg` is **NOT** a Boolean. |
@@ -62,6 +64,8 @@ Each of these functions accept a single argument and return `true` or `false`.
 | `isNotUndefined(arg)` | Returns `true` only if `arg` is **NOT** undefined. |
 | `isNotPrimitive(arg)` | Returns `true` only if `arg` is **NOT** a **Primitive** value. |
 | `isNotReference(arg)` | Returns `true` only if `arg` is **NOT** a **Reference** value. |
+| `isNotSimple(arg)` | Alias for **isNotPrimitive**. |
+| `isNotComplex(arg)` | Alias for **isNotReference**. |
 | **Arg Functions** | For checking the type of command line arguments. |
 | `hasAColon(arg)` | Returns `true` only if `arg` contains a `colon`. |
 | `isNumeric(arg)` | Returns `true` only if `arg` is a numeric string. |
@@ -81,9 +85,9 @@ Each of these functions accept a single argument and return `true` or `false`.
 | `isArrayOfNumbers(arg)` | Returns `true` only if `arg` is an Array of Numbers. |
 | `isArrayOfObjects(arg)` | Returns `true` only if `arg` is an Array of Objects. |
 | `isArrayOfStrings(arg)` | Returns `true` only if `arg` is an Array of Strings. |
-| `isArray2D(arg)` | Returns `true` only if `arg` is an Array of Arrays. |
-| `isGrid(arg)` | Returns `true` only if `arg` is an Array of Arrays. |
-| `isTable(arg)` | Returns `true` only if `arg` is an Array of Objects. |
+| `isArray2D(arg)` | Alias for **isArrayOfArrays**. |
+| `isGrid(arg)` | Alias for **isArrayOfArrays**. |
+| `isTable(arg)` | Alias for **isArrayOfObjects**. |
 | **Object Functions** | For checking the type of Objects |
 | `isEmptyObject(arg)` | Returns `true` only if `arg` is an **empty** Object. |
 | `isNonEmptyObject(arg)` | Returns `true` only if `arg` is a **non-empty** Object. |
@@ -93,8 +97,8 @@ Each of these functions accept a single argument and return `true` or `false`.
 | `isObjectOfNumbers(arg)` | Returns `true` only if `arg` is an Object only containing Number values. |
 | `isObjectOfObjects(arg)` | Returns `true` only if `arg` is an Object only containing Object values. |
 | `isObjectOfStrings(arg)` | Returns `true` only if `arg` is an Object only containing String values. |
-| `isHashTable(arg)` | Returns `true` only if `arg` is an Object only containing Array values. |
-| `isObject2D(arg)` | Returns `true` only if `arg` is an Object only containing Object values. |
+| `isHashTable(arg)` | Alias for **isObjectOfArrays**. |
+| `isObject2D(arg)` | Alias for **isObjectOfObjects**. |
 
 
 ## Package details
@@ -102,7 +106,7 @@ Each of these functions accept a single argument and return `true` or `false`.
 | -------------- | ---------------------------------------------------------------------------------- |
 | `Name`         | `whichtype`                                                                        |
 | `Description`  | `Whichtype is a small JavaScript library for checking the type of your variables.` |
-| `Version`      | `1.6.0`                                                                            |
+| `Version`      | `1.7.0`                                                                            |
 | `Author`       | `iaseth`                                                                           |
 | `Homepage`     | `https://github.com/iaseth/whichtype`                                              |
 | `Repository`   | `iaseth/whichtype`                                                                 |
