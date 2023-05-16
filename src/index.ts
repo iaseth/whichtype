@@ -71,6 +71,9 @@ export {
 	isObjectOfNumbers,
 	isObjectOfObjects,
 	isObjectOfStrings,
+
+	isHashTable,
+	isObject2D,
 } from './object';
 
 

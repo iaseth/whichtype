@@ -87,3 +87,6 @@ export function isObjectOfStrings (x: any): boolean {
 	}
 	return true;
 }
+
+export const isHashTable = isObjectOfArrays;
+export const isObject2D = isObjectOfObjects;

@@ -67,5 +67,8 @@
 		{"name": "isObjectOfNumbers", "description": "Returns `true` only if `arg` is an Object only containing Number values."},
 		{"name": "isObjectOfObjects", "description": "Returns `true` only if `arg` is an Object only containing Object values."},
 		{"name": "isObjectOfStrings", "description": "Returns `true` only if `arg` is an Object only containing String values."},
+
+		{"name": "isHashTable", "description": "Returns `true` only if `arg` is an Object only containing Array values."},
+		{"name": "isObject2D", "description": "Returns `true` only if `arg` is an Object only containing Object values."},
 	]
 }
